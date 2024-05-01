@@ -4,7 +4,7 @@ import { PiNotificationBold } from "react-icons/pi";
 
 const NotificationsCard = () => {
   return (
-    <div className="w-[350px] h-[250px] bg-[#282828] rounded-xl hidden 2xl:block">
+    <div className="w-[350px] h-[260px] bg-[#282828] rounded-xl hidden 2xl:block">
       <div className="flex flex-row justify-between items-center px-6 pt-4 pb-1 border-b border-gray-600">
         <p className="text-lg text-white font-bold">Notifications</p>
         <HiDotsVertical className="w-5 h-5 text-gray-500" />

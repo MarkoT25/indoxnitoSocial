@@ -4,7 +4,7 @@ import { IoPerson } from "react-icons/io5";
 
 const ProfileCard = () => {
   return (
-    <div className="w-[350px] h-[500px] bg-[#282828] rounded-xl relative flex justify-center">
+    <div className="w-[350px] h-[500px] bg-[#282828] rounded-xl relative hidden xl:flex justify-center">
       <img
         src={profileBackground.src}
         alt="Profle background"

@@ -8,18 +8,18 @@ import UserStory from "@/components/UserStory";
 
 export default function Home() {
   return (
-    <main className="p-4 flex justify-center items-center w-screen mx-auto">
-      <div className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 w-full">
-        <div className="col-span-1 space-y-5 hidden lg:block">
+    <main className="p-4">
+      <div className="flex flex-row gap-4 justify-center">
+        <div className="flex flex-col space-y-5">
           <ProfileCard />
           <Navigation />
         </div>
-        <div className="col-span-2">
+        <div className="flex flex-col space-y-5">
           <UserStory />
-          <NewPost /> 
+          <NewPost />
           <Post />
         </div>
-        <div className="col-span-1 space-y-5 hidden 2xl:block">
+        <div className="flex flex-col space-y-5">
           <MessagesCard />
           <NotificationsCard />
         </div>

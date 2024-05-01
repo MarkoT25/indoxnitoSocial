@@ -7,7 +7,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const Navigation = () => {
   return (
-    <div className='w-[350px] h-[400px] bg-[#282828] rounded-xl flex flex-col items-center justify-center gap-4'>
+    <div className='w-[350px] h-[410px] bg-[#282828] rounded-xl hidden xl:flex flex-col items-center justify-center gap-4'>
         <div className='w-[85%] h-[60px] bg-blue-600 rounded-xl flex justify-start items-center shadow-md'>
             <MdDynamicFeed className='w-8 h-8 text-[#222222] ml-3'/>
             <p className='text-xl text-white  ml-4'>Feed</p>
