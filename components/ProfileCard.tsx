@@ -24,10 +24,14 @@ const ProfileCard = () => {
       <div className="bg-[#282828] w-full h-[340px] absolute bottom-0 z-20 rounded-b-xl mt-[100px] flex flex-col items-center">
         <div className="mt-[70px] flex flex-col  items-center">
           <p className="text-2xl text-white font-bold ">Anonymus</p>
-          <p className="text-white text-md text-center mt-[25px] p-4">This is my profile description lorem impusm some words</p>
+          <p className="text-white text-md text-center mt-[25px] p-4">
+            This is my profile description lorem impusm some words
+          </p>
         </div>
         <div className="flex justify-center mt-[65px]">
-            <button className="w-[200px] h-[50px] bg-[#222222] rounded-xl text-md text-white uppercase font-bold">My Profile</button>
+          <button className="w-[200px] h-[50px] bg-[#222222] rounded-xl text-md text-white uppercase font-bold">
+            My Profile
+          </button>
         </div>
       </div>
     </div>

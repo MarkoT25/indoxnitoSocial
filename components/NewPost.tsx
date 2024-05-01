@@ -33,7 +33,6 @@ const NewPost = () => {
           <GrSchedules className="w-7 h-7 text-yellow-100  " />
           <p className="text-md text-white">Schedule</p>
         </div>
-        
       </div>
     </div>
   );
