@@ -14,7 +14,7 @@ export default function Home() {
           <ProfileCard />
           <Navigation />
         </div>
-        <div className="flex flex-col space-y-5">
+        <div className="flex flex-col items-center space-y-5">
           <UserStory />
           <NewPost />
           <Post />

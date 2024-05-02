@@ -13,7 +13,7 @@ import postImage from "../public/post-image.jpg";
 
 const Post = () => {
   return (
-    <div className="w-[800px] h-[560px] bg-[#282828] mt-[30px] rounded-xl ">
+    <div className="w-full md2:w-[800px] h-[560px] bg-[#282828] mt-[30px] rounded-xl ">
       <div className="p-6 flex flex-row w-full gap-4 items-center">
         <IoPerson className="w-[70px] h-[70px] text-blue-600 bg-[#1a1a1a] p-2 rounded-3xl border-4 border-[#3d3d3d] " />
         <div className="flex flex-col w-full gap-1">
@@ -25,7 +25,7 @@ const Post = () => {
             <HiDotsVertical className="w-5 h-5 text-gray-400" />
           </div>
           <div className="flex flex-row items-center gap-2">
-            <p className="text-white text-xl font-bold">Marko Ticinovic</p>
+            <p className="text-white text-xl font-bold">Guest Username</p>
             <GoDotFill className="w-5 h-5 text-green-500" />
             <p className="text-md text-yellow-400">1 hr ago</p>
           </div>

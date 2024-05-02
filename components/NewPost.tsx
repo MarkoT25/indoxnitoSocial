@@ -7,7 +7,7 @@ import { GrSchedules } from "react-icons/gr";
 
 const NewPost = () => {
   return (
-    <div className="w-[800px] h-[180px] bg-[#282828] rounded-xl flex flex-col justify-center items-center gap-5">
+    <div className="w-[800px] h-[180px] bg-[#282828] rounded-xl hidden md2:flex flex-col justify-center items-center gap-5">
       <div className="flex flex-row justify-around items-center gap-5">
         <IoPerson className="w-16 h-16 text-blue-600 bg-[#1a1a1a] p-2 rounded-xl " />
         <input
